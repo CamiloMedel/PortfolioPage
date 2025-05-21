@@ -1,0 +1,32 @@
+footer {
+    height: 200px;
+    background-color: #191819;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    padding-top: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 28px;
+}
+
+.social-link  a{
+    color: white;
+    text-decoration: none;
+}
+
+.social-link a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p {
+    text-align: center;
+}

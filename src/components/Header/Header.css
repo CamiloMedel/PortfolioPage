@@ -1,0 +1,21 @@
+header {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(0);
+    transition-property: "transform";
+    transition-duration: ".3s";
+    transition-timing-function: "ease-in-out";
+    background-color: white;
+}
+
+.header-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
