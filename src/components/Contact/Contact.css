@@ -1,0 +1,67 @@
+.contact-container {
+    background-image: url('../../assets/BallonClimber.png');
+    background-position: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+
+.contact-container > form {
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    border-radius: 1%;
+    z-index: 2;
+}
+
+.contact-container > form > .title {
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 200px;
+}
+
+.contact-container > form > * {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.contact-container > form > label {
+    margin-bottom: 3px;
+}
+
+.contact-container > form > input {
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.contact-container > form > textarea {
+    margin-bottom: 30px;
+}
+
+.contact-container > form > button {
+    height: 40px;
+    background-color: #191819;
+    color: white;
+}
+
+.contact-container > form > button:hover {
+    background-color: white;
+    color: #191819;
+    cursor: pointer;
+}

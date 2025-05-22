@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 import Porfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
+import Resume from './components/Resume/Resume'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path="portfolio" element={<Porfolio/>}/>
           <Route path="contact" element={<Contact/>}/>
+          <Route path="resume" element={<Resume/>}/>
         </Route>
       </Routes>
       <Footer />

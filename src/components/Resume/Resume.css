@@ -1,0 +1,97 @@
+.resume-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: none;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.resume-container .title {
+    color: black;
+    width: 300px;
+    border-bottom: none;
+}
+
+.resume-container > div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: transform .3s ease;
+    z-index: 2;
+}
+
+.resume-container > div:hover{
+    transform: scale(1.05);
+}
+
+.resume-container .title {
+    pointer-events: none;
+    background-color: white;
+    color: black;
+}
+
+.resume-container .title:hover {
+    background-color: black;
+    color: white;
+    background-color: white;
+}
+
+.resume-container button {
+    margin: auto;
+    width: 100px;
+    height: 40px;
+}
+
+#game-design-resume *:not(.video-background) {
+    z-index: 2;
+}
+
+#game-design-resume::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+    pointer-events: none;
+}
+
+#game-design-resume:hover::before {
+    opacity: 0;
+}
+
+.video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: inline-block;
+}
+
+#tech-resume {
+    background-image: url('../../assets/NorElisCakesCoverPhoto.png');
+    background-size: cover;
+    z-index: 0;
+}
+
+#tech-resume * {
+    z-index: 2;
+}
+
+#tech-resume::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+
+#tech-resume:hover::before {
+    opacity: .3;
+}

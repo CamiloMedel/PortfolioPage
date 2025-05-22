@@ -10,6 +10,7 @@ header {
     transition-duration: ".3s";
     transition-timing-function: "ease-in-out";
     background-color: white;
+    z-index: 2;
 }
 
 .header-container {
