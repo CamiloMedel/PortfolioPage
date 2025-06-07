@@ -24,24 +24,36 @@
 
 .resume-container > div:hover{
     transform: scale(1.05);
+    z-index: 3;
 }
 
 .resume-container .title {
     pointer-events: none;
-    background-color: white;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+.resume-container a {
+    margin: auto;
+    padding: 10px 50px;
+    height: 50px;
+    border-radius: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .5);
+    border: solid white 2px;
+    cursor: pointer;
+}
+
+.resume-container a:hover {
+    background-color: rgba(255, 255, 255, .5);
     color: black;
 }
 
-.resume-container .title:hover {
-    background-color: black;
+.resume-container a:visited {
     color: white;
-    background-color: white;
-}
-
-.resume-container button {
-    margin: auto;
-    width: 100px;
-    height: 40px;
+    text-decoration: none;
 }
 
 #game-design-resume *:not(.video-background) {
@@ -55,10 +67,6 @@
     background-color: rgba(0, 0, 0, .5);
     z-index: 1;
     pointer-events: none;
-}
-
-#game-design-resume:hover::before {
-    opacity: 0;
 }
 
 .video-background {
@@ -77,7 +85,6 @@
 #tech-resume {
     background-image: url('../../assets/NorElisCakesCoverPhoto.png');
     background-size: cover;
-    z-index: 0;
 }
 
 #tech-resume * {
@@ -90,8 +97,4 @@
     inset: 0;
     background-color: rgba(0, 0, 0, .5);
     z-index: 1;
-}
-
-#tech-resume:hover::before {
-    opacity: .3;
 }

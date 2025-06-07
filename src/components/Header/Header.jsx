@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 
 import './Header.css'
 import Nav from "../Nav/Nav"
+import SignatureIcon from '../../assets/CamiloMIcon.png'
 
 function Header(){
     const headerBox = useRef(null);
@@ -22,7 +23,7 @@ function Header(){
     return (
         <header ref={headerBox}>
             <div className="header-container">
-                <h1>C.M.</h1>
+                <img src={SignatureIcon}/>
                 <Nav/>
             </div>
         </header>

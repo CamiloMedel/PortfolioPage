@@ -7,6 +7,7 @@ import Porfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
 import Resume from './components/Resume/Resume'
 import './App.css'
+import ProjectPage from './components/Portfolio/ProjectPage/ProjectPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
           <Route path="portfolio" element={<Porfolio/>}/>
           <Route path="contact" element={<Contact/>}/>
           <Route path="resume" element={<Resume/>}/>
+          <Route path="projects/:projectId" element={<ProjectPage/>}/>
         </Route>
       </Routes>
       <Footer />

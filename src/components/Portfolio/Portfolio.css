@@ -1,0 +1,61 @@
+#portfolio h1 {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#tab-switch {
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tab {
+    width: 50%;
+    height: 100%;
+    border: none;
+    border: lightgray solid 1px;
+    border-bottom: lightgray solid 2px;
+    font-size: 1.2rem;
+}
+
+.tab:hover {
+    font-size: 1.3rem;
+}
+
+.active {
+    background-color: white;
+}
+
+#tab-switch button:hover {
+    cursor: pointer;
+}
+
+.projects-section {
+    min-height: 700px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: aliceblue;
+    padding: 10px;
+    border: lightgray solid 1px;
+}
+
+.projects-section > .projects-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.projects-section > .projects-container > .project-card {
+    width: 30%;
+    min-width: 300px;
+    height: 400px;
+}
