@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: none;
-    height: 95vh;
+    height: 100vh;
     overflow: hidden;
+    padding-top: 90px;
 }
 
 .resume-container .title {

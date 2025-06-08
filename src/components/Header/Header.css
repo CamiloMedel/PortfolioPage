@@ -1,7 +1,7 @@
 header {
     border-bottom: 1px solid gray;
     width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -10,7 +10,7 @@ header {
     transition-duration: ".3s";
     transition-timing-function: "ease-in-out";
     background-color: white;
-    z-index: 2;
+    z-index: 1001;
 }
 
 header img {
@@ -24,4 +24,84 @@ header img {
     justify-content: space-between;
     align-items: center;
     margin: auto;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:visited {
+    color: black;
+}
+
+.nav-link:hover {
+    font-size: 1.1em;
+    border-bottom: solid gray 2px;
+}
+
+.hamburger {
+    display: none;
+    background-color: white;
+    border: none;
+    font-size: 32px;
+    position: relative;
+    z-index: 1001;
+}
+
+.hamburger:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-menu > .menu-links-container {
+    list-style: none;
+}
+
+.mobile-menu > .menu-links-container > li {
+    margin-bottom: 20px;
+}
+
+.mobile-menu > .menu-links-container .menu-link {
+    text-decoration: none;
+    font-size: 32px;
+    border-bottom: solid white 3px;
+}
+
+.mobile-menu > .menu-links-container .menu-link:hover {
+    border-bottom: solid black 3px;
+}
+
+.mobile-menu > .menu-links-container .menu-link:visited {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }

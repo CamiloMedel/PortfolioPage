@@ -3,11 +3,12 @@
     background-position: 20%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    padding-top: 100px;
 }
 
 .contact-container::before {
@@ -20,6 +21,8 @@
 
 .contact-container > form {
     width: 60%;
+    min-width: 450px;
+    max-width: 900px;
     margin: auto;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -64,4 +67,12 @@
     background-color: white;
     color: #191819;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .contact-container > form {
+        width: 100%;
+        min-width: 0;
+        border-radius: 0;
+    }
 }

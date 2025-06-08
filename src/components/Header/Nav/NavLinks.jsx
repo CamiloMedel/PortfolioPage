@@ -1,9 +1,8 @@
-import './Nav.css'
 import {Link} from 'react-router';
 
-function Nav(){
+function NavLinks(){
     return (
-        <nav className='nav'>
+        <nav className='nav-links'>
             <li><Link to="/" className='nav-link'>HOME</Link></li>
             <li><Link to ="/portfolio" className='nav-link'>PORTFOLIO</Link></li>
             <li><Link to="/contact" className='nav-link'>CONTACT</Link></li>
@@ -12,4 +11,4 @@ function Nav(){
     )
 }
 
-export default Nav
+export default NavLinks
