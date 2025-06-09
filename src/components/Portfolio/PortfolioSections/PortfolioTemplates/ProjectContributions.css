@@ -1,0 +1,17 @@
+.project-contributions {
+    width: 80%;
+    margin: auto;
+}
+
+.project-contributions > .title {
+    border: none;
+    text-align: center;
+}
+
+.project-contributions > .project-contributions-list {
+    list-style: circle;
+}
+
+.project-contributions > .project-contributions-list  > li {
+    margin-bottom: 10px;
+}

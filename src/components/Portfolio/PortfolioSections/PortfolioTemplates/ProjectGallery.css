@@ -1,0 +1,29 @@
+.gallery-section {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gallery-section > .title {
+    text-align: center;
+    border: none;
+}
+
+.gallery-section > .media-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-section > .media-container > img {
+    height: 25vh;
+    transition: transform 0.3s ease;
+}
+
+.gallery-section > .media-container > img:hover {
+    transform: scale(1.5);
+    z-index: 2;
+    border: solid white 2px;
+}

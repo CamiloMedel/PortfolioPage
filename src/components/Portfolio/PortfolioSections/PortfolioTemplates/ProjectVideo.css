@@ -1,0 +1,18 @@
+.project-video-section {
+    margin: auto;
+    width: 80%;
+}
+
+.project-video-section > .title {
+    margin-bottom: 20px;
+    border-bottom: none;
+    text-align: center;
+}
+
+.project-video-section > .video-container > * {
+    margin: auto;
+    display: block;
+    width: 80%;
+    aspect-ratio: 16/9;
+    padding-bottom: 30px;
+}
