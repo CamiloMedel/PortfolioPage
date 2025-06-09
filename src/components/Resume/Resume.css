@@ -57,11 +57,11 @@
     text-decoration: none;
 }
 
-#game-design-resume *:not(.video-background) {
+.game-design-resume *:not(.video-background) {
     z-index: 2;
 }
 
-#game-design-resume::before {
+.game-design-resume::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -83,19 +83,24 @@
     display: inline-block;
 }
 
-#tech-resume {
+.tech-resume {
     background-image: url('../../assets/NorElisCakesCoverPhoto.png');
     background-size: cover;
 }
 
-#tech-resume * {
+.tech-resume * {
     z-index: 2;
 }
 
-#tech-resume::before {
+.tech-resume::before {
     content: '';
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, .5);
     z-index: 1;
+}
+@media screen and (max-width: 664px) {
+    .resume-container {
+        grid-template-columns: none;
+    }
 }

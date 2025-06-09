@@ -1,0 +1,107 @@
+.highlights-project-card {
+    width: 30%;
+    min-width: 250px;
+    height: 500px;
+    background-color: #191819;;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    gap: 0;
+    border: solid #191819 1px;
+    transition: transform .3s ease;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.highlights-project-card:hover {
+    transform: scale(1.05);
+}
+
+.highlights-project-card > img {
+    grid-row: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.highlights-tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.highlights-project-card-text {
+    grid-row: 2;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    color: white;
+}
+
+.highlights-project-card-text h2 {
+    margin-top: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.highlights-project-card-text p:first-of-type {
+    width: 100%;
+    height: 50%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    overflow: hidden;
+    text-overflow: hidden;
+    text-overflow: ellipsis;
+    color: #d5d4d5;
+}
+
+
+@media screen and (max-width: 1808px) {
+    .highlights-project-card-text p:last-of-type {
+        -webkit-line-clamp: 5;
+        line-clamp: 5;
+    }
+}
+
+@media screen and (max-width: 1529px) {
+    .highlights-project-card {
+        height: 500px
+    }
+
+    .highlights-project-card-text p:last-of-type {
+        margin-top: -10px;
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+        height: 40%;
+    }
+}
+
+@media screen and (max-width: 1342px) {
+    .highlights-project-card {
+        height: 420px;
+    }
+
+    .highlights-project-card-text p:first-of-type {
+        height: 37%;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .highlights-project-card {
+        width: 60%;
+        grid-template-rows: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .highlights-project-card {
+        width: 80%;
+        height: 400px;
+        grid-template-rows: 50% 50%;
+    }
+}

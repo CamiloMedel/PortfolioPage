@@ -3,7 +3,7 @@ import './Highlights.css'
 import GolfCoverPhoto from '../../../assets/GolfGaitCoverPhoto.JPG'
 import LittleLemonCoverPhoto from '../../../assets/LittleLemonCoverPhoto.JPG'
 import NorElisCakesCoverPhoto from '../../../assets/NorElisCakesCoverPhoto.png'
-import HighlightsProjectCard from '../../HighlightsProjectCard/HighlightsProjectCard'
+import HighlightsProjectCard from './HighlightsProjectCard/HighlightsProjectCard'
 
 let highligtedProjects = [
     {
