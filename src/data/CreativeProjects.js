@@ -16,5 +16,5 @@ export const allCreativeProjects = [
         tags: ['Unity', 'C#', 'Game Design', 'Prototype', 'Aseprite', 'Ableton'],
         coverPhoto: RunCoverPhoto,
         link: '/projects/run'
-    }
+    },
 ]
