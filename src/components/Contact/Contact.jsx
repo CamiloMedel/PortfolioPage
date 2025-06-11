@@ -4,7 +4,8 @@ import './Contact.css'
 function Contact(){
     return (
         <main className="contact-container">
-            <form action="https://formsubmit.co/1037577e1ba38bca3872f4dcda3a16ab" method="POST" data-redirect="https://camilomedel.github.io/PortfolioPage/" className='animate__animated animate__fadeIn'>
+            <form action="https://formsubmit.co/1037577e1ba38bca3872f4dcda3a16ab" method="POST" className='animate__animated animate__fadeIn'>
+                <input type="hidden" name="_next" value="https://camilomedel.github.io/PortfolioPage/"/>
                 <input type='text' name='_honey' style={{display: 'none'}}/>
                 <h1 className="title">Contact</h1>
                 <label for='name'>Name:</label>
