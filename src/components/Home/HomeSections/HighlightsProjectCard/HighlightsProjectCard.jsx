@@ -4,7 +4,7 @@ import Tag from '../../../Tag'
 function HighlightsProjectCard({projectInfo}){
     return (
         <div className='highlights-project-card'>
-            <img src={projectInfo.coverPhoto}/>
+            <img src={projectInfo.coverPhoto} alt={`Photo showcasing ${projectInfo.title}`}/>
             <div className='highlights-project-card-text'>
                 <h2>{projectInfo.title}</h2>
                 <p>{projectInfo.description}</p>

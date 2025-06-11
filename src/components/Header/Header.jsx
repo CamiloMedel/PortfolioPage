@@ -45,12 +45,12 @@ function Header(){
         <>
             <header ref={headerBox}>
                 <div className="header-container">
-                    <img src={SignatureIcon}/>
+                    <img src={SignatureIcon} alt="Camilo Medel logo"/>
                     {/* Desktop Navigation */}
                     <NavLinks/>
 
                     {/* Hamburger Button for smaller screens */}
-                        <HamburgerButton toggleMenu={() => setMenuOpen(!menuOpen)} isOpen={menuOpen}/>
+                    <HamburgerButton toggleMenu={() => setMenuOpen(!menuOpen)} isOpen={menuOpen}/>
                 </div>
             </header>
             {/*Mobile navigation menu */}

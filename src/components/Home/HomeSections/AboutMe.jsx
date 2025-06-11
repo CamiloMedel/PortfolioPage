@@ -6,7 +6,7 @@ function AboutMe(){
     return (
         <section className='about-me-section'>
             <h1 className='title'>About Me</h1>
-            <img src={proffesionalPhoto} className='animate__animated animate__fadeIn'/>
+            <img src={proffesionalPhoto} className='animate__animated animate__fadeIn' alt='Portrait of Camilo Medel'/>
             <div className='descriptive-text animate__animated animate__fadeIn'>
                 <p>
                     Hi, I'm Camilo Medel — a recent graduate from The University of Texas at Austin, where I earned a Bachelor of Science in Arts and Entertainment

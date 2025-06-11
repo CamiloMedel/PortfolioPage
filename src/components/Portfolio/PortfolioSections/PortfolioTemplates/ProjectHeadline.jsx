@@ -5,7 +5,7 @@ function ProjectHeadline( { title, description, coverImage, projectSpecs , tags}
     return (
         <section className="project-headline">
             <div className='text-image-container'>
-                <img src={coverImage}/>
+                <img src={coverImage} alt={`Photo showcasing ${title}`}/>
                 <div className='text'>
                     <h1 className='title'>{ title }</h1>
                     <p className='description'>{description}</p>

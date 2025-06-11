@@ -6,7 +6,7 @@ function ProjectGallery({ galleryMedia }) {
             <h1 className='title'>Gallery</h1>
             <div className='media-container'>
                 {galleryMedia.map((media) => {
-                    return <img src={media}/>
+                    return <img src={media.src} alt={media.alt}/>
                 })}
             </div>
         </section>

@@ -85,8 +85,8 @@ function Run(){
                 >
                     <div className='media' style={{height: '100%', minHeight: '300px'}}>
                         <div style={overlappingImgsStyle}>
-                            <img src={Ideation} style={ideationImgStyle}/>
-                            <img src={Storyboarding} style={storyboardingImgStyle}/>
+                            <img src={Ideation} style={ideationImgStyle} alt='Journal page with listed ideas from the initial ideation phase'/>
+                            <img src={Storyboarding} style={storyboardingImgStyle} alt='Journal page with the initial storyboard sketch showcasing game flow'/>
                         </div>
                     </div>
                 </ProcessEntry>
@@ -96,7 +96,7 @@ function Run(){
 
                     Other art asset creation was done throughout the production of the project when needed."
                 >
-                    <img src={AssetsScreenshot} className='media'/>
+                    <img src={AssetsScreenshot} className='media' alt='Collection of sprites made in aseprite for the prototype'/>
                 </ProcessEntry>
                 <ProcessEntry
                     title='IV. Mechanic | Logic | Asset Implementation'
@@ -105,7 +105,7 @@ function Run(){
                     As I implemented my game, I made sure to evolve my ideas and assets to get rid of design and experience problems, to get rid of potential frustration and boredom points, and to further explore exciting points."
                     mediaOnRight
                 >
-                    <img src={UnityScreenshot} className='media'/>
+                    <img src={UnityScreenshot} className='media' alt='Screenshot of Unity scene showing the behind the scenes of the scene and level setup'/>
                 </ProcessEntry>
                 <ProcessEntry
                     title='V. Audio'
@@ -113,7 +113,7 @@ function Run(){
 
                     I then implemented this audio within Unity."
                 >
-                    <img src={AbletonScreenshot} className='media'/>
+                    <img src={AbletonScreenshot} className='media' alt="Screenshot of prototype's music track made within Ableton"/>
                 </ProcessEntry>
                 <ProcessEntry
                     title="VI. Game Juice & Polish"
@@ -122,7 +122,7 @@ function Run(){
                     A final round of polish was also done to sort out any bugs and visual issues."
                     mediaOnRight
                 >
-                    <img src={GameJuice} className='media'/>
+                    <img src={GameJuice} alt='Gif showing a snippet of gameplay with camera shake occuring as lights are smashed by the player' className='media'/>
                 </ProcessEntry>
             </ProjectProcess>
         </main>

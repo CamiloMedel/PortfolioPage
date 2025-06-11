@@ -63,13 +63,13 @@ function GolfAndGait(){
             </ProjectVideo>
             <ProjectGallery
                 galleryMedia={[
-                    InGameScreenshot00,
-                    ShowcasePhoto00,
-                    InGameScreenshot01,
-                    ShowcasePhoto01,
-                    GameplayGif00,
-                    InGameScreenshot02,
-                    GameplayGif01,
+                    {src: InGameScreenshot00, alt: '2D menu screen of a robot playing golf'},
+                    {src: ShowcasePhoto00, alt: 'Player raising their leg as the play Golf & Gait at the AET Elevate 2025 Showcase'},
+                    {src: InGameScreenshot01, alt: 'In game screenshot of the golf swing power bar raising as a robot charges a golf club'},
+                    {src: ShowcasePhoto01, alt: 'Player lowering their leg as the play Golf & Gait at the AET Elevate 2025 Showcase'},
+                    {src: GameplayGif00, alt: 'Gif of in game footage of the robot character hitting a golf ball with low power'},
+                    {src: InGameScreenshot02, alt: 'In game screenshot of golf ball flying in the air'},
+                    {src: GameplayGif01, alt: 'Gif of in game footage of a golf ball rolling and marking a new high score on the ground'}
                 ]}
             />
             <ProjectContributions

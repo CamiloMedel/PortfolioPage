@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { allSoftwareProjects } from '../../../data/SoftwareProjects';
-import ProjectCard from '../../ProjectCard/ProjectCard';
+import ProjectCard from '../ProjectCard/ProjectCard';
 
 function SoftwareProjects() {
     const [activeTags, setActiveTags] = useState([]);

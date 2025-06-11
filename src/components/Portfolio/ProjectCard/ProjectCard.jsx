@@ -1,12 +1,12 @@
 import { Link } from 'react-router'
 import './ProjectCard.css'
-import Tag from '../Tag'
+import Tag from '../../Tag'
 
 function ProjectCard({projectInfo}) {
     return (
         <div className='project-card'>
             <Link to={projectInfo.link}>
-                <img src={projectInfo.coverPhoto}/>
+                <img src={projectInfo.coverPhoto} alt={`Photo showcasing ${projectInfo.title}`}/>
             </Link>
             <div className='project-card-text'>
                 <h2>{projectInfo.title}</h2>

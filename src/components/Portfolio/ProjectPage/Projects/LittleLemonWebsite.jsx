@@ -50,13 +50,13 @@ function LittleLemonWebsite() {
             />
             <ProjectGallery
                 galleryMedia={[
-                    CoverImage,
-                    WebScreenshot00,
-                    WebScreenshot01,
-                    UserPersona,
-                    FigmaLofiWireframe,
-                    FigmaElements,
-                    FigmaPrototype
+                    {src: CoverImage, alt: 'Screenshot of Little Lemon homepage at the hero section'},
+                    {src: WebScreenshot00, alt: 'Screebshot of Little Lemon homepage at the about section'},
+                    {src: WebScreenshot01, alt: 'Screenshot of the Little Lemon booking page with form fields filled in'},
+                    {src: UserPersona, alt: 'User Persona used in the design process'},
+                    {src: FigmaLofiWireframe, alt: 'Low fidelity Figma wireframes'},
+                    {src: FigmaElements, alt: 'elements createtd in Figma for use in the Little Lemon Figma prototype'},
+                    {src: FigmaPrototype, alt: 'Figma advanced prototype for the Little Lemon website'}
                 ]}
             />
             <ProjectImprovements

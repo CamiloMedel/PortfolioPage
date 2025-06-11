@@ -48,8 +48,8 @@ function NorElisCakes() {
             />
             <ProjectGallery
                 galleryMedia={[
-                    CoverImage,
-                    presentationPhoto
+                    {src: CoverImage, alt: 'Screenshot showcase of the NorElisCakes cart, menu, and item pages'},
+                    {src: presentationPhoto, alt: 'Showcase photo of the NorElisCakes logo, app icon, home page, and cake customization screen'}
                 ]}
             />
             <ProjectImprovements

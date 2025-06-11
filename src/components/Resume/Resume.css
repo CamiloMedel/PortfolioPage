@@ -57,6 +57,10 @@
     text-decoration: none;
 }
 
+.game-design-resume {
+    background-color: black;
+}
+
 .game-design-resume *:not(.video-background) {
     z-index: 2;
 }
@@ -86,6 +90,7 @@
 .tech-resume {
     background-image: url('../../assets/NorElisCakesCoverPhoto.png');
     background-size: cover;
+    background-color: white;
 }
 
 .tech-resume * {
