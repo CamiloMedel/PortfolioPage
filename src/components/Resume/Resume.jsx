@@ -27,7 +27,7 @@ function Resume(){
                 <video ref={videoRef} src={gameplayVideo} muted loop playsInLine className='video-background'/>
                 <div className='resume-content'>
                     <h1 className='title'>Game Design & Development</h1>
-                    <a href='https://drive.google.com/file/d/1e8XwXvyuS_wRAjIU1VBX7Bp4Qsb1ZBr4/view?usp=sharing'>Resume</a>
+                    <a href='https://drive.google.com/file/d/18MhOlR5hxJHW1a_6dgtmWMVK7-SrFFe5/view?usp=sharing' target='_blank'>Resume</a>
                 </div>
             </div>
             <div className='tech-resume'>

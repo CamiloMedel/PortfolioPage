@@ -1,20 +1,22 @@
 .project-video-section {
     margin: auto;
-    width: 80%;
+    background-color: #191819;
     border-top: lightgray solid 1px;
-    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .project-video-section > .title {
     margin-bottom: 20px;
     border-bottom: none;
     text-align: center;
+    color: white;
 }
 
 .project-video-section > .video-container > * {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 65%;
     aspect-ratio: 16/9;
     padding-bottom: 30px;
 }

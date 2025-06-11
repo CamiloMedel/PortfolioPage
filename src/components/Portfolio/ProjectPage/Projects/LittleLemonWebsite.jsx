@@ -24,10 +24,7 @@ function LittleLemonWebsite() {
         <main>
             <ProjectHeadline
                 title='Little Lemon Website'
-                description='Developed a responsive homepage and fully functional table reservation system for Little Lemon, a fictional Mediterranean restaurant.
-                This project was the capstone for the Meta Front-End Developer Professional Certificate on Coursera. It involved translating design mockups into
-                accessible and performant React components using modern front-end practices. Key features include real-time form validation, dynamic reservation handling,
-                and clean UI design.'
+                description='Developed a responsive homepage and fully functional table reservation system for Little Lemon, a fictional Mediterranean restaurant. This project was the capstone for the Meta Front-End Developer Professional Certificate on Coursera. It involved translating design mockups into accessible and performant React components using modern front-end practices. Key features include real-time form validation, dynamic reservation handling, and clean UI design.'
                 coverImage={CoverImage}
                 projectSpecs={projectSpecifications}
                 tags={['React.js', 'UX/UI', 'Front-End Dev', 'Figma']}

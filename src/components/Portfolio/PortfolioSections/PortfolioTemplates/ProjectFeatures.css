@@ -1,7 +1,8 @@
 .project-features {
     width: 80%;
     margin: auto;
-    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-top: 20px;
 }
 
 .project-features > .title {

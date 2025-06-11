@@ -1,9 +1,9 @@
-import CoverImage from '../../../../assets/GolfGaitCoverPhoto.JPG'
 import ProjectHeadline from '../../PortfolioSections/PortfolioTemplates/ProjectHeadline'
 import ProjectVideo from '../../PortfolioSections/PortfolioTemplates/ProjectVideo'
 import ProjectContributions from '../../PortfolioSections/PortfolioTemplates/ProjectContributions'
 import ProjectGallery from '../../PortfolioSections/PortfolioTemplates/ProjectGallery'
 
+import CoverImage from '../../../../assets/GolfGaitCoverPhoto.JPG'
 import GameplayGif00 from '../../../../assets/Golf&Gait/GameplayClip00.gif'
 import GameplayGif01 from '../../../../assets/Golf&Gait/GameplayClip01.gif'
 import InGameScreenshot00 from '../../../../assets/Golf&Gait/InGameScreenshot00.png'
@@ -13,7 +13,7 @@ import ShowcasePhoto00 from '../../../../assets/Golf&Gait/ShowcasePhoto00.jpg'
 import ShowcasePhoto01 from '../../../../assets/Golf&Gait/ShowcasePhoto01.jpg'
 import ProjectTeamContact from '../../PortfolioSections/PortfolioTemplates/ProjectTeamContact'
 
-let projectSpecificaitons = {
+let projectSpecifications = {
     type: 'Unity Game',
     role: 'Unity Developer / Game Design',
     duration: 'Spring 2025 (UT Austin)'
@@ -28,7 +28,7 @@ let teamMembers = [
     {
         fullName: 'Ezra Ramirez',
         role: '3D Character models',
-        contact: ''
+        contact: 'https://www.linkedin.com/in/ezra-ramirez/'
     },
     {
         fullName: 'Irwin Gutierrez',
@@ -52,11 +52,9 @@ function GolfAndGait(){
         <main>
             <ProjectHeadline
                 title='Golf & Gait'
-                description='Golf and Gait is a motion-tracked golf minigame designed to support stroke rehabilitation. Created as part of the AET Gaitway Arcade initiative
-                at UT Austin, the game encourages physical therapy through playful, balance-focused interaction. Players lift and lower their legs to swing at a virtual
-                golf ball, with motion capture ensuring that real-world movements translate into meaningful, in-game feedback.'
+                description='Golf and Gait is a motion-tracked golf minigame designed to support stroke rehabilitation. Created as part of the AET Gaitway Arcade initiative at UT Austin, the game encourages physical therapy through playful, balance-focused interaction. Players lift and lower their legs to swing at a virtual golf ball, with motion capture ensuring that real-world movements translate into meaningful, in-game feedback.'
                 coverImage = {CoverImage}
-                projectSpecs={projectSpecificaitons}
+                projectSpecs={projectSpecifications}
                 tags={['Unity', 'Team Project', 'Game Design', 'C#']}
             />
             <ProjectVideo videoType='Gameplay'>
@@ -89,4 +87,4 @@ function GolfAndGait(){
     )
 }
 
-export default GolfAndGait
+export default GolfAndGait;

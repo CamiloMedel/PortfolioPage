@@ -1,13 +1,15 @@
 .gallery-section {
-    width: 80%;
     margin: auto;
-    padding-bottom: 20px;
-    margin-top: 40px;
+    background-color: #191819;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .gallery-section > .title {
     text-align: center;
     border: none;
+    color: white;
 }
 
 .gallery-section > .media-container {
@@ -15,6 +17,8 @@
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    width: 80%;
+    margin: auto;
 }
 
 .gallery-section > .media-container > img {

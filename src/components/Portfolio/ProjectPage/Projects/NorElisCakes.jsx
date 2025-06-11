@@ -19,10 +19,7 @@ function NorElisCakes() {
         <main>
             <ProjectHeadline
                 title='NorElisCakes'
-                description='iOS e-commerce mock/demo app for browsing, customizing, and ordering cakes from NorElisCakes. Developed using Swift and UIKit,
-                the app features a dynamic customization screen, a scalable architecture that makes it easy to add new cakes, and Core Data integration
-                for persistent cart management. Users can update their cart in real-time with smooth, responsive interactions. This project deepened my
-                expertise in iOS development, front-end design, and building maintainable, user-focused applications.'
+                description='iOS e-commerce mock/demo app for browsing, customizing, and ordering cakes from NorElisCakes. Developed using Swift and UIKit, the app features a dynamic customization screen, a scalable architecture that makes it easy to add new cakes, and Core Data integration for persistent cart management. Users can update their cart in real-time with smooth, responsive interactions. This project deepened my expertise in iOS development, front-end design, and building maintainable, user-focused applications.'
                 coverImage={CoverImage}
                 projectSpecs={projectSpecifications}
                 tags={['iOS Dev', 'Swift', 'UIKit', 'Storyboard']}
