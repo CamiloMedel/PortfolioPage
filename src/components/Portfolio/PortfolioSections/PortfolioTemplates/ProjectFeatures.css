@@ -1,0 +1,42 @@
+.project-features {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.project-features > .title {
+    border: none;
+}
+
+.project-features > .features-list {
+   list-style: none;
+   font-size: 1.1rem;
+   display: grid;
+   grid-template-columns: 45% 45%;
+   column-gap: 10%;
+   row-gap: 20px;
+   padding-left: 0;
+}
+
+.project-features > h3{
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+.project-features > .tech-stack {
+    list-style: circle;
+    padding-left: auto;
+    font-size: 1.1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media screen and (max-width: 956px){
+    .project-features > .features-list{
+        display: block;
+    }
+
+    .project-features > .tech-stack {
+        display: block;
+    }
+}

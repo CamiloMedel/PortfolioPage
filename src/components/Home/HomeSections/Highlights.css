@@ -37,9 +37,21 @@
     justify-content: space-between;
 }
 
+.highlights-link-wrapper {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: 30%;
+    min-width: 250px;
+}
+
 @media screen and (max-width: 990px) {
     .highlights-projects-container {
         justify-content: center;
+    }
+
+    .highlights-link-wrapper {
+        width: 60%;
     }
 }
 
@@ -50,5 +62,9 @@
 
     .highlights-heading-container > .title:first-of-type {
         margin: 20px auto;
+    }
+
+    .highlights-link-wrapper {
+        width: 80%;
     }
 }

@@ -1,6 +1,4 @@
 .highlights-project-card {
-    width: 30%;
-    min-width: 250px;
     height: 500px;
     background-color: #191819;;
     display: grid;
@@ -93,14 +91,12 @@
 
 @media screen and (max-width: 990px) {
     .highlights-project-card {
-        width: 60%;
         grid-template-rows: 50% 50%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .highlights-project-card {
-        width: 80%;
         height: 400px;
         grid-template-rows: 50% 50%;
     }

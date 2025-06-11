@@ -16,32 +16,4 @@ export const allSoftwareProjects = [
         coverPhoto: LittleLemonCoverPhoto,
         link: '/projects/littlelemon'
     },
-    {
-        title: 'Little Lemon Website',
-        description: `A homepage and functional table reservation system for the Little Lemon restaurant, a fictional restaurant.`,
-        tags: ['React.js', 'UX/UI', 'Front-End Dev'],
-        coverPhoto: LittleLemonCoverPhoto,
-        link: '/projects/littlelemon'
-    },
-    {
-        title: 'Little Lemon Website',
-        description: `A homepage and functional table reservation system for the Little Lemon restaurant, a fictional restaurant.`,
-        tags: ['React.js', 'UX/UI', 'Front-End Dev'],
-        coverPhoto: LittleLemonCoverPhoto,
-        link: '/projects/littlelemon'
-    },
-    {
-        title: 'Little Lemon Website',
-        description: `A homepage and functional table reservation system for the Little Lemon restaurant, a fictional restaurant.`,
-        tags: ['React.js', 'UX/UI', 'Front-End Dev'],
-        coverPhoto: LittleLemonCoverPhoto,
-        link: '/projects/littlelemon'
-    },
-    {
-        title: 'Little Lemon Website',
-        description: `A homepage and functional table reservation system for the Little Lemon restaurant, a fictional restaurant.`,
-        tags: ['React.js', 'UX/UI', 'Front-End Dev'],
-        coverPhoto: LittleLemonCoverPhoto,
-        link: '/projects/littlelemon'
-    },
 ]

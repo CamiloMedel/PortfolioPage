@@ -6,10 +6,11 @@ const tagColors = {
     'React.js': 'Blue',
     'UX/UI': 'LightBlue',
     'Front-End Dev': 'CornflowerBlue',
+    'Figma': 'DodgerBlue',
     'iOS Dev': 'DarkOrchid',
     'Swift': 'DarkSlateBlue',
     'UIKit': 'DarkMagenta',
-    'Storyboard': 'Violet'
+    'Storyboard': 'Violet',
 }
 
 function Tag({label}) {

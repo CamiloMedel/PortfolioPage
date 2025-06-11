@@ -1,0 +1,25 @@
+.project-improvements {
+    width: 80%;
+    margin: auto;
+    border-top: lightgray solid 1px;
+    margin-top: 40px;
+}
+
+.project-improvements > .title {
+    border: none;
+}
+
+.project-improvements > ul {
+    list-style: circle;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    row-gap: 20px;
+    column-gap: 10%;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 956px){
+    .project-improvements > ul {
+        display: block;
+    }
+}

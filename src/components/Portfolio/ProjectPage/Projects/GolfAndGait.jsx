@@ -11,12 +11,41 @@ import InGameScreenshot01 from '../../../../assets/Golf&Gait/InGameScreenshot01.
 import InGameScreenshot02 from '../../../../assets/Golf&Gait/InGameScreenshot02.png'
 import ShowcasePhoto00 from '../../../../assets/Golf&Gait/ShowcasePhoto00.jpg'
 import ShowcasePhoto01 from '../../../../assets/Golf&Gait/ShowcasePhoto01.jpg'
+import ProjectTeamContact from '../../PortfolioSections/PortfolioTemplates/ProjectTeamContact'
 
 let projectSpecificaitons = {
     type: 'Unity Game',
     role: 'Unity Developer / Game Design',
     duration: 'Spring 2025 (UT Austin)'
 }
+
+let teamMembers = [
+    {
+        fullName: 'Schuyler Burke',
+        role: 'producer & UI asset creation',
+        contact: 'https://www.linkedin.com/in/schuylerburke/'
+    },
+    {
+        fullName: 'Ezra Ramirez',
+        role: '3D Character models',
+        contact: ''
+    },
+    {
+        fullName: 'Irwin Gutierrez',
+        role: '3D Environment Artist',
+        contact: 'https://www.linkedin.com/in/irwin-gutierrez-54596a225/'
+    },
+    {
+        fullName: 'Breeze Ayala',
+        role: 'Level Design',
+        contact: 'https://www.linkedin.com/in/breezeayala/'
+    },
+    {
+        fullName: 'Daniel Zuniga',
+        role: 'Audio',
+        contact: 'https://www.linkedin.com/in/daniel-zuniga-893b642ab/'
+    }
+]
 
 function GolfAndGait(){
     return (
@@ -55,6 +84,7 @@ function GolfAndGait(){
                     'Helped prepare and present the project for public exhibition at the AET student showcase at UT Austin'
                 ]}
             />
+            <ProjectTeamContact teamMembers={teamMembers}/>
         </main>
     )
 }

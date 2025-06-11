@@ -1,0 +1,26 @@
+.project-github {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.project-github > .title {
+    border: none;
+}
+
+.project-github > p {
+    font-size: 1.3rem;
+}
+
+.project-github > p > a {
+    color: gray;
+}
+
+.project-github > p > a:visited {
+    color: gray;
+}
+
+.project-github > p > a:hover {
+    color: lightgray;
+}

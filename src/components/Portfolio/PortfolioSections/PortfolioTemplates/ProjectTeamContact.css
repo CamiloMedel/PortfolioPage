@@ -1,0 +1,28 @@
+.team-contact {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.team-contact > .title {
+    border: none;
+    text-align: center;
+}
+
+.team-contact > ul > .member-entry {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.team-contact > ul > .member-entry > span:first-of-type {
+    font-weight: bold;
+}
+
+.team-contact > ul > .member-entry > span:last-of-type > a, .team-contact > ul > .member-entry > span:last-of-type > a:visited  {
+    color: black;
+}
+
+.team-contact > ul > .member-entry > span:last-of-type > a:hover {
+    color: lightgray;
+}
