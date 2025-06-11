@@ -1,0 +1,52 @@
+.contact-confirmation-container {
+    background-image: url('../../assets/BallonClimber.png');
+    background-position: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.contact-confirmation-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+
+.text-container {
+    width: 60%;
+    min-width: 450px;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: white;
+    border-radius: 8px;
+    z-index: 2;
+    text-align: center;
+}
+
+.text-container > .title {
+    border: none;
+    margin-bottom: 70px;
+}
+
+.text-container > .home-button {
+    color: white;
+    text-decoration: none;
+    background-color: #191819;
+    padding: 10px 50px;
+    border: solid 1px #191819;
+    border-radius: 4px;
+}
+
+.text-container > .home-button:hover {
+    color: #191819;
+    background-color: white;
+}

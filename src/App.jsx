@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact'
 import Resume from './components/Resume/Resume'
 import './App.css'
 import ProjectPage from './components/Portfolio/ProjectPage/ProjectPage'
+import ContactConfirmation from './components/Contact/ContactConfirmation'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path="portfolio" element={<Porfolio/>}/>
           <Route path="contact" element={<Contact/>}/>
+          <Route path="confirmation" element={<ContactConfirmation/>}/>
           <Route path="resume" element={<Resume/>}/>
           <Route path="projects/:projectId" element={<ProjectPage/>}/>
         </Route>
