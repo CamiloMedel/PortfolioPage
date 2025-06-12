@@ -1,7 +1,7 @@
 import {Link} from 'react-router';
 import './Highlights.css'
 import GolfCoverPhoto from '../../../assets/GolfGaitCoverPhoto.JPG'
-import LittleLemonCoverPhoto from '../../../assets/LittleLemonCoverPhoto.JPG'
+import RunCoverPhoto from '../../../assets/Run/RunCoverPhoto.png'
 import NorElisCakesCoverPhoto from '../../../assets/NorElisCakesCoverPhoto.png'
 import HighlightsProjectCard from './HighlightsProjectCard/HighlightsProjectCard'
 
@@ -16,12 +16,11 @@ let highligtedProjects = [
         link: '/projects/golf-and-gait'
     },
     {
-        title: 'Little Lemon Website',
-        description: `A homepage and functional table reservation system for the Little Lemon restaurant, a fictional restaurant. Project made for Meta -
-        Front-End Developer Capstone (Coursera).`,
-        tags: ['React.js', 'UX/UI', 'Front-End Dev', 'Figma'],
-        coverPhoto: LittleLemonCoverPhoto,
-        link: '/projects/littlelemon'
+        title: 'Run',
+        description: "2D game prototype implementing Unity's post processing effects and lighting to create a creepy and spooky ambience.",
+        tags: ['Unity', 'C#', 'Game Design', 'Prototype', 'Aseprite', 'Ableton'],
+        coverPhoto: RunCoverPhoto,
+        link: '/projects/run'
     },
     {
         title: 'NorElis Cakes App',

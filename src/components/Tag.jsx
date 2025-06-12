@@ -14,6 +14,7 @@ const tagColors = {
     'Swift': 'DarkSlateBlue',
     'UIKit': 'DarkMagenta',
     'Storyboard': 'Violet',
+    'Blog Post': 'LightSalmon'
 }
 
 function Tag({label}) {
