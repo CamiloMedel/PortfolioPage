@@ -1,5 +1,6 @@
 import GolfCoverPhoto from '../assets/GolfGaitCoverPhoto.JPG'
 import RunCoverPhoto from '../assets/Run/RunCoverPhoto.png'
+import FOTJCoverPhoto from '../assets/FightOfTheJabberwocky/FOTJCoverPhoto.png'
 
 export const allCreativeProjects = [
     {
@@ -17,4 +18,13 @@ export const allCreativeProjects = [
         coverPhoto: RunCoverPhoto,
         link: '/projects/run'
     },
+    {
+        title: 'Fight of the Jabberwocky',
+        description: `An Alt Ctrl Arcade game where you become Jerry, a misunderstood jabberwocky defending his forest home.
+        Wearing a custom mask, players use their roar—captured via microphone—and foot pedal input to scare off intruding
+        villagers in a chaotic, voice-activated experience.`,
+        tags: ['Team Project', 'Unity', 'C#', 'Game Design'],
+        coverPhoto: FOTJCoverPhoto,
+        link: '/projects/fight-of-the-jabberwocky'
+    }
 ]
