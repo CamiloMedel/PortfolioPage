@@ -43,12 +43,13 @@ function WebDevJourney() {
                 </ProcessEntry>
                 <ProcessEntry
                     title="Reflection & What's Next"
-                    description="Looking back, this journey has been shaped by steady growth, persistence, and curiosity. Alongside these online programs, I also pursued the Elements of Computing Certificate at UT Austin, which gave me a deeper understanding of programming fundamentals and problem-solving. As I continue developing my skills, I’m now expanding into iOS development, where many of the principles I learned through web development—like component-based design, responsive layouts, and user-first thinking—translate naturally."
+                    description="Looking back, this journey has been shaped by steady growth, persistence, and curiosity. Alongside these online programs, I also pursued the Elements of Computing Certificate at UT Austin, which gave me a deeper understanding of programming fundamentals and problem-solving. As I continue developing my skills, I’m now expanding into iOS development, where many of the principles I learned through web development—like component-based design, responsive layouts, and user-first thinking—translate naturally.
+
+                    One of my latest and proudest projects is this very portfolio website, which represents everything I’ve learned so far. It’s been a chance to explore animations, mobile responsiveness, and overall improved UI/UX—bringing my skills to a new level. Whether I’m building for the web or mobile, I’m passionate about creating thoughtful, engaging user experiences, and I’m excited to start a career with all I've learned."
                     mediaOnRight
                 >
                     <img src={PortfolioHomePage} alt="Screenshot of my portfolio's home page" className="media"/>
                 </ProcessEntry>
-                <p style={{marginTop: '-50px'}}>One of my latest and proudest projects is this very portfolio website, which represents everything I’ve learned so far. It’s been a chance to explore animations, mobile responsiveness, and overall improved UI/UX—bringing my skills to a new level. Whether I’m building for the web or mobile, I’m passionate about creating thoughtful, engaging user experiences, and I’m excited to start a career with all I've learned.</p>
             </ProjectProcess>
         </main>
     )
