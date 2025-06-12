@@ -1,6 +1,7 @@
 import NorElisCakesCoverPhoto from '../assets/NorElisCakesCoverPhoto.png';
 import LittleLemonCoverPhoto from '../assets/LittleLemonCoverPhoto.JPG';
 import WebDevJourneyCoverPhoto from '../assets/WebDevJourney/WebDevJourneyCoverPhoto.png';
+import MangataAndGalloCoverPhoto from '../assets/MangataAndGallo/MangataAndGalloCoverPhoto.JPG';
 
 export const allSoftwareProjects = [
     {
@@ -24,4 +25,11 @@ export const allSoftwareProjects = [
         coverPhoto: WebDevJourneyCoverPhoto,
         link: '/projects/web-dev-journey'
     },
+    {
+        title: 'Mangata & Gallo',
+        description: 'A responsive homepage for a fictional jewelry store, Mangata & Gallo, designed as part of the "HTML and CSS in Depth" course in the Meta Front-End Developer Specialization.',
+        tags: ['Front-End Dev', 'UX/UI'],
+        coverPhoto: MangataAndGalloCoverPhoto,
+        link: '/projects/mangata-and-gallo'
+    }
 ]
