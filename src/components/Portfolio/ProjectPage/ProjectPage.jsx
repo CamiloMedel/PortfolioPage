@@ -8,6 +8,7 @@ import MangataAndGallo from './Projects/MangataAndGallo';
 import FightOfTheJabberwocky from './Projects/FightOfTheJabberowcky';
 import BalloonClimber from './Projects/BalloonClimber';
 import FiveInFive from './Projects/FiveInFive';
+import PeccaryFoodRun from './Projects/PeccaryFoodRun';
 
 function ProjectPage(){
     const { projectId } = useParams();
@@ -20,7 +21,8 @@ function ProjectPage(){
         'mangata-and-gallo': <MangataAndGallo/>,
         'fight-of-the-jabberwocky': <FightOfTheJabberwocky/>,
         'balloon-climber': <BalloonClimber/>,
-        'five-in-five': <FiveInFive/>
+        'five-in-five': <FiveInFive/>,
+        'peccary-food-run': <PeccaryFoodRun/>
     }
 
     return projects[projectId] || <p>Project not found.</p>;

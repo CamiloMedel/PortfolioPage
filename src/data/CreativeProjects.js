@@ -3,6 +3,7 @@ import RunCoverPhoto from '../assets/Run/RunCoverPhoto.png';
 import FOTJCoverPhoto from '../assets/FightOfTheJabberwocky/FOTJCoverPhoto.png';
 import BalloonClimberCoverPhoto from '../assets/BalloonClimber/BalloonClimberCoverPhoto.png';
 import FiveInFiveCoverPhoto from '../assets/5in5/FiveInFiveCoverPhoto.png';
+import PeccaryFoodRunCoverPhoto from '../assets/PeccaryFoodRun/PeccaryFoodRunCoverPhoto.png';
 
 export const allCreativeProjects = [
     {
@@ -42,5 +43,12 @@ export const allCreativeProjects = [
         tags: ['Unity', 'C#', 'Game Design', 'Ableton', 'Aseprite'],
         coverPhoto: FiveInFiveCoverPhoto,
         link: '/projects/five-in-five'
+    },
+    {
+        title: 'Peccary Food Run',
+        description: 'A 2D Unity game based on my research into the White-Lipped Peccary, a near-threatened Amazon species known for crop raiding and its large herds. Prototype created for a group project on Amazon Rainforest environmentalism.',
+        tags: ['Unity', 'C#', 'Game Design', 'Aseprite'],
+        coverPhoto: PeccaryFoodRunCoverPhoto,
+        link: '/projects/peccary-food-run'
     }
 ]
