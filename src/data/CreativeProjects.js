@@ -2,6 +2,7 @@ import GolfCoverPhoto from '../assets/GolfGaitCoverPhoto.JPG';
 import RunCoverPhoto from '../assets/Run/RunCoverPhoto.png';
 import FOTJCoverPhoto from '../assets/FightOfTheJabberwocky/FOTJCoverPhoto.png';
 import BalloonClimberCoverPhoto from '../assets/BalloonClimber/BalloonClimberCoverPhoto.png';
+import FiveInFiveCoverPhoto from '../assets/5in5/FiveInFiveCoverPhoto.png';
 
 export const allCreativeProjects = [
     {
@@ -34,5 +35,12 @@ export const allCreativeProjects = [
         tags: ['Unity', 'C#', 'Game Design', 'Ableton', 'Photoshop', 'Game Demo'],
         coverPhoto: BalloonClimberCoverPhoto,
         link: '/projects/balloon-climber'
+    },
+    {
+        title: '5 in 5',
+        description: 'As part of a creative sprint, I challenged myself to ideate, build, and complete five unique Unity projects in five consecutive days. Each day, I focused on a new game design or technical goal, pushing both my creative limits and Unity development skills under tight time constraints.',
+        tags: ['Unity', 'C#', 'Game Design', 'Ableton', 'Aseprite'],
+        coverPhoto: FiveInFiveCoverPhoto,
+        link: '/projects/five-in-five'
     }
 ]

@@ -83,7 +83,7 @@ function Run(){
                     Once I had some ideas fleshed out, I started storyboarding to visualize what these ideas would look like implemented.​"
                     mediaOnRight
                 >
-                    <div className='media' style={{height: '100%', minHeight: '300px'}}>
+                    <div className='media' style={{height: '100%', minHeight: '300px', boxShadow: 'none'}}>
                         <div style={overlappingImgsStyle}>
                             <img src={Ideation} style={ideationImgStyle} alt='Journal page with listed ideas from the initial ideation phase'/>
                             <img src={Storyboarding} style={storyboardingImgStyle} alt='Journal page with the initial storyboard sketch showcasing game flow'/>
