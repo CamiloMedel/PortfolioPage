@@ -6,6 +6,7 @@ import Run from './Projects/Run';
 import WebDevJourney from './Projects/WebDevJourney';
 import MangataAndGallo from './Projects/MangataAndGallo';
 import FightOfTheJabberwocky from './Projects/FightOfTheJabberowcky';
+import BalloonClimber from './Projects/BalloonClimber';
 
 function ProjectPage(){
     const { projectId } = useParams();
@@ -16,7 +17,8 @@ function ProjectPage(){
         'run': <Run/>,
         'web-dev-journey': <WebDevJourney/>,
         'mangata-and-gallo': <MangataAndGallo/>,
-        'fight-of-the-jabberwocky': <FightOfTheJabberwocky/>
+        'fight-of-the-jabberwocky': <FightOfTheJabberwocky/>,
+        'balloon-climber': <BalloonClimber/>
     }
 
     return projects[projectId] || <p>Project not found.</p>;

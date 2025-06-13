@@ -1,6 +1,7 @@
-import GolfCoverPhoto from '../assets/GolfGaitCoverPhoto.JPG'
-import RunCoverPhoto from '../assets/Run/RunCoverPhoto.png'
-import FOTJCoverPhoto from '../assets/FightOfTheJabberwocky/FOTJCoverPhoto.png'
+import GolfCoverPhoto from '../assets/GolfGaitCoverPhoto.JPG';
+import RunCoverPhoto from '../assets/Run/RunCoverPhoto.png';
+import FOTJCoverPhoto from '../assets/FightOfTheJabberwocky/FOTJCoverPhoto.png';
+import BalloonClimberCoverPhoto from '../assets/BalloonClimber/BalloonClimberCoverPhoto.png';
 
 export const allCreativeProjects = [
     {
@@ -26,5 +27,12 @@ export const allCreativeProjects = [
         tags: ['Team Project', 'Unity', 'C#', 'Game Design'],
         coverPhoto: FOTJCoverPhoto,
         link: '/projects/fight-of-the-jabberwocky'
+    },
+    {
+        title: 'Balloon Climber',
+        description: 'Equip your trusty leaf blower and guide a fragile balloon ever upward through a treacherous vertical world! Dodge angry geese, avoid spike traps, and master physics-based movement in this whimsical climbing adventure. Every gust of air propels the balloon higher—but one wrong blow, and POP!',
+        tags: ['Unity', 'C#', 'Game Design', 'Ableton', 'Photoshop', 'Game Demo'],
+        coverPhoto: BalloonClimberCoverPhoto,
+        link: '/projects/balloon-climber'
     }
 ]
