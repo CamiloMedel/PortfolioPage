@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router";
 
 import './Header.css'
 import NavLinks from "./Nav/NavLinks"
@@ -45,7 +46,7 @@ function Header(){
         <>
             <header ref={headerBox}>
                 <div className="header-container">
-                    <img src={SignatureIcon} alt="Camilo Medel logo"/>
+                    <Link to='/'><img src={SignatureIcon} alt="Camilo Medel logo"/></Link>
                     {/* Desktop Navigation */}
                     <NavLinks/>
 

@@ -11,8 +11,6 @@ import ProjectPage from './components/Portfolio/ProjectPage/ProjectPage'
 import ContactConfirmation from './components/Contact/ContactConfirmation'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Header />
