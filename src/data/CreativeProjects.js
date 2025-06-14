@@ -4,6 +4,7 @@ import FOTJCoverPhoto from '../assets/FightOfTheJabberwocky/FOTJCoverPhoto.png';
 import BalloonClimberCoverPhoto from '../assets/BalloonClimber/BalloonClimberCoverPhoto.png';
 import FiveInFiveCoverPhoto from '../assets/5in5/FiveInFiveCoverPhoto.png';
 import PeccaryFoodRunCoverPhoto from '../assets/PeccaryFoodRun/PeccaryFoodRunCoverPhoto.png';
+import GameAWeekCoverPhoto from '../assets/GameAWeek/GameAWeekCoverPhoto.png';
 
 export const allCreativeProjects = [
     {
@@ -47,8 +48,15 @@ export const allCreativeProjects = [
     {
         title: 'Peccary Food Run',
         description: 'A 2D Unity game based on my research into the White-Lipped Peccary, a near-threatened Amazon species known for crop raiding and its large herds. Prototype created for a group project on Amazon Rainforest environmentalism.',
-        tags: ['Unity', 'C#', 'Game Design', 'Aseprite'],
+        tags: ['Unity', 'C#', 'Game Design', 'Aseprite', 'Prototype'],
         coverPhoto: PeccaryFoodRunCoverPhoto,
         link: '/projects/peccary-food-run'
+    },
+    {
+        title: 'Game a Week',
+        description: "As part of my Prototyping course at UT Austin, I participated in a rapid design challenge where we created a brand-new digital game prototype every week. Each week started with a randomly generated prompt, it was a full sprint—ideating, designing, and producing a playable game by the week's end",
+        tags: ['Unity', 'C#', 'Game Design', 'Photoshop', 'Ableton', 'Blog Post'],
+        coverPhoto: GameAWeekCoverPhoto,
+        link: '/projects/game-a-week'
     }
 ]

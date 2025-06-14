@@ -7,7 +7,7 @@ import PeccaryFoodRunCoverPhoto from '../../../../assets/PeccaryFoodRun/PeccaryF
 let projectSpecifications = {
     type: 'Research Based Prototype',
     role: 'Solo Developer',
-    duration: '2 Weeks'
+    duration: '1 Week Research, 1 Week Prototype'
 }
 
 function PeccaryFoodRun() {
@@ -18,7 +18,7 @@ function PeccaryFoodRun() {
             description='Peccary Food Run is a 2D Unity prototype created as part of a collaborative research-based project on environmentalism in the Amazon Rainforest. While the group selected a shared topic, each member conducted individual research and designed their own prototype. I focused on the White-Lipped Peccary — a near-threatened species known for crop raiding and complex herd behavior.'
             coverImage={PeccaryFoodRunCoverPhoto}
             projectSpecs={projectSpecifications}
-            tags={['Unity', 'C#', 'Game Design', 'Aseprite']}
+            tags={['Unity', 'C#', 'Game Design', 'Aseprite', 'Prototype']}
             />
             <ProjectVideo videoType='Gameplay'>
                 <iframe src="https://www.youtube.com/embed/VAEk7nB2278?si=5TpyzQOdrUxnAkB0" title="YouTube video player" frameborder="0"

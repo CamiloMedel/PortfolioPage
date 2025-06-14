@@ -5,7 +5,7 @@ import FiveInFiveCoverPhoto from '../../../../assets/5in5/FiveInFiveCoverPhoto.p
 let projectSpecifications = {
     type: 'Rapid Prototyping',
     role: 'Solo Developer',
-    duration: '5 Days'
+    duration: 'Spring 2025 / 5 Days'
 }
 
 function FiveInFive() {

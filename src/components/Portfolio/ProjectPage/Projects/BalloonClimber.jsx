@@ -14,7 +14,7 @@ import InGameScreenshot00 from '../../../../assets/BalloonClimber/InGameScreensh
 let projectSpecifications = {
     type: 'Game Demo',
     role: 'Solo Developer',
-    duration: '3 Weeks'
+    duration: 'Spring 2024 / 3 Weeks'
 }
 
 function BalloonClimber(){

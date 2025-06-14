@@ -9,6 +9,7 @@ import FightOfTheJabberwocky from './Projects/FightOfTheJabberowcky';
 import BalloonClimber from './Projects/BalloonClimber';
 import FiveInFive from './Projects/FiveInFive';
 import PeccaryFoodRun from './Projects/PeccaryFoodRun';
+import GameAWeek from './Projects/GameAWeek';
 
 function ProjectPage(){
     const { projectId } = useParams();
@@ -22,7 +23,8 @@ function ProjectPage(){
         'fight-of-the-jabberwocky': <FightOfTheJabberwocky/>,
         'balloon-climber': <BalloonClimber/>,
         'five-in-five': <FiveInFive/>,
-        'peccary-food-run': <PeccaryFoodRun/>
+        'peccary-food-run': <PeccaryFoodRun/>,
+        'game-a-week': <GameAWeek/>
     }
 
     return projects[projectId] || <p>Project not found.</p>;
