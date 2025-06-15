@@ -47,6 +47,7 @@ header img {
 
 .hamburger {
     display: none;
+    color: black;
     background-color: white;
     border: none;
     font-size: 32px;
@@ -79,6 +80,7 @@ header img {
 
 .mobile-menu > .menu-links-container > li {
     margin-bottom: 20px;
+    color: black;
 }
 
 .mobile-menu > .menu-links-container .menu-link {
