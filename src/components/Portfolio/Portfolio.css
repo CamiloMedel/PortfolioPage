@@ -31,6 +31,10 @@
     background-color: white;
 }
 
+#tab-switch button {
+    color: black;
+}
+
 #tab-switch button:hover {
     cursor: pointer;
 }
