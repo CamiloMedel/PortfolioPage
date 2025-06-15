@@ -2,6 +2,7 @@ import NorElisCakesCoverPhoto from '../assets/NorElisCakesCoverPhoto.png';
 import LittleLemonCoverPhoto from '../assets/LittleLemonCoverPhoto.JPG';
 import WebDevJourneyCoverPhoto from '../assets/WebDevJourney/WebDevJourneyCoverPhoto.png';
 import MangataAndGalloCoverPhoto from '../assets/MangataAndGallo/MangataAndGalloCoverPhoto.JPG';
+import PortfolioWebsiteCoverPhoto from '../assets/PortfolioWebsite/PortfolioWebsiteCoverPhoto.png';
 
 export const allSoftwareProjects = [
     {
@@ -31,5 +32,12 @@ export const allSoftwareProjects = [
         tags: ['Front-End Dev', 'UX/UI'],
         coverPhoto: MangataAndGalloCoverPhoto,
         link: '/projects/mangata-and-gallo'
+    },
+    {
+        title: 'Portfolio Website',
+        description: 'A responsive personal site to showcase my work in game development, iOS development, and creative technology.',
+        tags: ['React.js', 'UX/UI', 'Front-End Dev'],
+        coverPhoto: PortfolioWebsiteCoverPhoto,
+        link: '/projects/portfolio-website'
     }
 ]

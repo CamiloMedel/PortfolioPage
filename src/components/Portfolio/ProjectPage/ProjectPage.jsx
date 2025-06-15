@@ -10,6 +10,7 @@ import BalloonClimber from './Projects/BalloonClimber';
 import FiveInFive from './Projects/FiveInFive';
 import PeccaryFoodRun from './Projects/PeccaryFoodRun';
 import GameAWeek from './Projects/GameAWeek';
+import PortfolioWebsite from './Projects/PortfolioWebsite';
 
 function ProjectPage(){
     const { projectId } = useParams();
@@ -24,7 +25,8 @@ function ProjectPage(){
         'balloon-climber': <BalloonClimber/>,
         'five-in-five': <FiveInFive/>,
         'peccary-food-run': <PeccaryFoodRun/>,
-        'game-a-week': <GameAWeek/>
+        'game-a-week': <GameAWeek/>,
+        'portfolio-website': <PortfolioWebsite/>
     }
 
     return projects[projectId] || <p>Project not found.</p>;
