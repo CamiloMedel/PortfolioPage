@@ -1,9 +1,16 @@
 import ProjectHeadline from "../../PortfolioSections/PortfolioTemplates/ProjectHeadline";
-
-import PortfolioWebsiteCoverPhoto from '../../../../assets/PortfolioWebsite/PortfolioWebsiteCoverPhoto.png';
 import ProjectFeatures from "../../PortfolioSections/PortfolioTemplates/ProjectFeatures";
 import ProjectImprovements from "../../PortfolioSections/PortfolioTemplates/ProjectImprovements";
 import ProjectGitHub from "../../PortfolioSections/PortfolioTemplates/ProjectGitHub";
+import ProjectVideo from "../../PortfolioSections/PortfolioTemplates/ProjectVideo";
+import ProjectGallery from "../../PortfolioSections/PortfolioTemplates/ProjectGallery";
+
+import PortfolioWebsiteCoverPhoto from '../../../../assets/PortfolioWebsite/PortfolioWebsiteCoverPhoto.png';
+import ResumeDemo from '../../../../assets/PortfolioWebsite/ResumeDemo.gif';
+import ResponsiveResume from '../../../../assets/PortfolioWebsite/ResponsiveResume.png';
+import ResponsiveProjectPage from '../../../../assets/PortfolioWebsite/ResponsiveProjectPage.png';
+import ResponsiveHomePage from '../../../../assets/PortfolioWebsite/ResponsiveHomePage.gif';
+import ResponsivePortfolioPage from '../../../../assets/PortfolioWebsite/ResponsivePortfolioPage.gif';
 
 let projectSpecifications = {
     type: 'Website',
@@ -23,6 +30,11 @@ function PortfolioWebsite() {
             projectSpecs={projectSpecifications}
             tags={['React.js', 'UX/UI', 'Front-End Dev']}
             />
+            <ProjectVideo videoType='Demo'>
+                <iframe src="https://www.youtube.com/embed/4VCD1KWtlIo?si=fXit4UI2jdrDOYBK" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </ProjectVideo>
             <ProjectFeatures
             features={[
                 '📱 Fully Responsive & Mobile-Friendly – Optimized for a seamless experience across devices and screen sizes',
@@ -41,6 +53,16 @@ function PortfolioWebsite() {
                 'FormSubmit',
                 'Vite',
                 'GitHub Pages'
+            ]}
+            />
+            <ProjectGallery
+            galleryMedia={[
+                {src: PortfolioWebsiteCoverPhoto, alt: 'Screenshot of the portfolio website homepage from the hero section'},
+                {src: ResumeDemo, alt: 'gif showing interaction with resume blocks in resume page of the portfolio website'},
+                {src: ResponsiveResume, alt: 'Screenshot showing how the resume page looks on mobile devices'},
+                {src: ResponsiveProjectPage, alt: 'Screenshot of how a project page looks on mobile devices'},
+                {src: ResponsiveHomePage, alt: 'gif showing how the home page looks like on mobile devices'},
+                {src: ResponsivePortfolioPage, alt: 'gif showing how the portfolio page looks like on mobile devices'}
             ]}
             />
             <ProjectImprovements

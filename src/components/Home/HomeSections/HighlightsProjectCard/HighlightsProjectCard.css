@@ -99,6 +99,7 @@
 @media screen and (max-width: 768px) {
     .highlights-project-card {
         height: 400px;
+        width: 100%;
         grid-template-rows: 50% 50%;
     }
 }
