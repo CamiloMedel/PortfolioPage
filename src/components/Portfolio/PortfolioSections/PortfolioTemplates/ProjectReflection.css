@@ -1,0 +1,11 @@
+.project-reflection {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+    border-top: solid 1px lightgray;
+}
+
+.project-reflection > .title {
+    border: none;
+    margin-bottom: -10px;
+}

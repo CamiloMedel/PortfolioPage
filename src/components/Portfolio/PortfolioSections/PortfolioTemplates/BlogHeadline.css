@@ -35,3 +35,13 @@
     border: none;
     margin-bottom: -10px;
 }
+
+@media screen and (max-width: 814px){
+    .blog-headline > .text-image-container {
+        display: block;
+    }
+
+    .blog-headline > .text-image-container > .img {
+        max-width: none;
+    }
+}
