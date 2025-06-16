@@ -7,7 +7,8 @@
 }
 
 #tab-switch {
-    width: 80%;
+    width: min(80%, 100%);
+    min-width: 320px;
     height: 60px;
     margin: auto;
     margin-top: 20px;
@@ -40,8 +41,8 @@
 }
 
 .projects-section {
-    min-height: 700px;
-    width: 80%;
+    width: min(80%, 100%);
+    min-width: 320px;
     margin: auto;
     margin-bottom: 20px;
     display: flex;
