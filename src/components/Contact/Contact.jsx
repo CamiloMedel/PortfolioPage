@@ -7,7 +7,7 @@ function Contact(){
             <form action="https://formsubmit.co/1037577e1ba38bca3872f4dcda3a16ab" method="POST" className='animate__animated animate__fadeIn'>
                 <input type="hidden" name="_next" value="https://camilomedel.github.io/PortfolioPage/#/confirmation"/>
                 <input type='text' name='_honey' style={{display: 'none'}}/>
-                <h1 className="title">Contact</h1>
+                <h1 className="title">CONTACT</h1>
                 <label for='name'>Name:</label>
                 <input type='text' name='name' placeholder='Your full name...' id='name' required/>
                 <label for='email:'>Email:</label>

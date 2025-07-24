@@ -1,6 +1,7 @@
 .highlights-section {
     width: 80%;
     margin: auto;
+    margin-top: 20px;
 }
 
 .highlights-heading-container {
@@ -9,20 +10,33 @@
     align-items: center;
 }
 
-.highlights-heading-container > .title:first-of-type {
-    width: 200px;
-}
-
 .link-to-projects {
     color: dimgray;
     text-decoration: none;
     font-size: 30px;
     font-weight: lighter;
+    font-size: 38px;
+    position: relative;
 }
 
 .link-to-projects:hover {
     color: lightgray;
-    border-bottom: solid lightgray 1px;
+}
+
+.link-to-projects:before {
+    content: "PROJECTS ";
+    position: absolute;
+    right: 0;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    white-space: nowrap;
+    margin-right: 2rem;
+}
+
+.link-to-projects:hover::before {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .link-to-projects:visited {

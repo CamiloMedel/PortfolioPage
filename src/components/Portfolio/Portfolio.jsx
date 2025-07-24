@@ -8,7 +8,7 @@ function Porfolio(){
 
     return (
         <main id='portfolio'>
-            <h1 className="title">Portfolio</h1>
+            <h1 className="title">PORTFOLIO</h1>
             <div id='tab-switch'>
                 <button onClick={() => setCategory('creative')} className={category === 'creative' ? 'tab active' : 'tab'}>Creative Projects</button>
                 <button onClick={() => setCategory('software')} className={category === 'software' ? 'tab active' : 'tab'}>Software & Web</button>

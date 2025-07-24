@@ -36,8 +36,8 @@ function Highlights(){
     return (
         <section className="highlights-section">
             <div className='highlights-heading-container'>
-                <h1 className='title'>Highlights</h1>
-                <h1><Link to="/portfolio" className='link-to-projects'>View All Projects <i class="fa-solid fa-chevron-right"/></Link></h1>
+                <h1 className='title'>HIGHLIGHTS</h1>
+                <h1><Link to="/portfolio" className='link-to-projects'><i class="fa-solid fa-chevron-right"/></Link></h1>
             </div>
             <div className='highlights-projects-container'>
                 {highligtedProjects.map((projectInfo) => {
