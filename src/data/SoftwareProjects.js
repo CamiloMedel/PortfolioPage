@@ -2,7 +2,7 @@ import NorElisCakesCoverPhoto from '../assets/NorElisCakesCoverPhoto.png';
 import LittleLemonCoverPhoto from '../assets/LittleLemonCoverPhoto.JPG';
 import WebDevJourneyCoverPhoto from '../assets/WebDevJourney/WebDevJourneyCoverPhoto.png';
 import MangataAndGalloCoverPhoto from '../assets/MangataAndGallo/MangataAndGalloCoverPhoto.JPG';
-import PortfolioWebsiteCoverPhoto from '../assets/PortfolioWebsite/PortfolioWebsiteCoverPhoto.png';
+import PortfolioWebsiteCoverPhoto from '../assets/PortfolioWebsite/PortfolioWebsiteCoverPhoto.JPG';
 
 export const allSoftwareProjects = [
     {

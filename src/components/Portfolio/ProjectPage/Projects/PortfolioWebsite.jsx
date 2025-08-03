@@ -5,7 +5,7 @@ import ProjectGitHub from "../../PortfolioSections/PortfolioTemplates/ProjectGit
 import ProjectVideo from "../../PortfolioSections/PortfolioTemplates/ProjectVideo";
 import ProjectGallery from "../../PortfolioSections/PortfolioTemplates/ProjectGallery";
 
-import PortfolioWebsiteCoverPhoto from '../../../../assets/PortfolioWebsite/PortfolioWebsiteCoverPhoto.png';
+import PortfolioWebsiteCoverPhoto from '../../../../assets/PortfolioWebsite/PortfolioWebsiteCoverPhoto.JPG';
 import ResumeDemo from '../../../../assets/PortfolioWebsite/ResumeDemo.gif';
 import ResponsiveResume from '../../../../assets/PortfolioWebsite/ResponsiveResume.png';
 import ResponsiveProjectPage from '../../../../assets/PortfolioWebsite/ResponsiveProjectPage.png';
@@ -31,7 +31,7 @@ function PortfolioWebsite() {
             tags={['React.js', 'UX/UI', 'Front-End Dev']}
             />
             <ProjectVideo videoType='Demo'>
-                <iframe src="https://www.youtube.com/embed/dYTDaVmdZUc?si=nkbWEs1tK79fuEmK" title="YouTube video player" frameborder="0"
+                <iframe src="https://www.youtube.com/embed/BZiVvVLs_UU?si=7V1mcwawFYK8o9ya" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </ProjectVideo>
