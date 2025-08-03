@@ -7,7 +7,7 @@ https://camilomedel.github.io/PortfolioPage/#/
 # 📺 Demo Video 
 <div align="center">
   
-  [![Watch the demo](https://img.youtube.com/vi/dYTDaVmdZUc/0.jpg)](https://www.youtube.com/watch?v=dYTDaVmdZUc)
+  [![Watch the demo](https://img.youtube.com/vi/BZiVvVLs_UU/0.jpg)](https://www.youtube.com/watch?v=BZiVvVLs_UU)
   <p>(^ Click to view on YouTube)</p>
   
 </div>
