@@ -8,7 +8,7 @@
     transition: transform .3s ease;
     box-shadow: 0 0 16px rgba(0, 0, 0, .2);
     padding: 10px;
-    border-radius: 16px;;
+    border-radius: 16px;
 }
 
 .highlights-project-card:hover {

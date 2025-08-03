@@ -19,7 +19,6 @@
 
 .tab {
     border: lightgray solid 1px;
-    border-bottom: lightgray solid 2px;
     font-size: 1rem;
     padding: 5px 23px;
     min-width: 198.25px;
@@ -36,6 +35,14 @@
 
 #tab-switch button {
     color: black;
+}
+
+#tab-switch button:first-of-type {
+    border-radius: 16px 0  0 16px;
+}
+
+#tab-switch button:last-of-type {
+    border-radius: 0 16px 16px 0;
 }
 
 #tab-switch button:hover {
