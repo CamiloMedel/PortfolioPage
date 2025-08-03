@@ -1,5 +1,4 @@
 header {
-    border-bottom: 1px solid gray;
     width: 100%;
     position: fixed;
     top: 0;
@@ -11,6 +10,7 @@ header {
     transition-timing-function: "ease-in-out";
     background-color: white;
     z-index: 1001;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
 }
 
 header img {
@@ -27,6 +27,7 @@ header img {
 }
 
 .nav-links {
+    font-size: 1.1rem;
     display: flex;
     list-style: none;
     gap: 3vw;
@@ -41,9 +42,8 @@ header img {
     color: black;
 }
 
-.nav-link:hover {
-    font-size: 1.1em;
-    border-bottom: solid gray 2px;
+.nav-link:hover, .mobile-menu > .menu-links-container .menu-link:hover {
+    font-weight: bold;
 }
 
 .hamburger {
@@ -88,10 +88,6 @@ header img {
     text-decoration: none;
     font-size: 32px;
     border-bottom: solid white 3px;
-}
-
-.mobile-menu > .menu-links-container .menu-link:hover {
-    border-bottom: solid black 3px;
 }
 
 .mobile-menu > .menu-links-container .menu-link:visited {
