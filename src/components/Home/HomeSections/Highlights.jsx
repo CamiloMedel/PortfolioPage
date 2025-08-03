@@ -8,9 +8,7 @@ import HighlightsProjectCard from './HighlightsProjectCard/HighlightsProjectCard
 let highligtedProjects = [
     {
         title: 'Golf & Gait',
-        description: `A mini-game that uses motion capture software to detect physical therapy movements, such as lifting and holding a leg up.
-        Tailored for individuals recovering from a stroke, the game promotes rehabilitation through gentle, guided activity. The goal is to immerse
-        players in a soothing, yet stimulating audio-visual experience that shifts focus away from the physical effort.`,
+        description: `A mini-game that uses motion capture software to detect physical therapy movements. Made for stroke rehabilitation reserach.`,
         tags: ['Team Project', 'Unity', 'C#', 'Game Design'],
         coverPhoto: GolfCoverPhoto,
         link: '/projects/golf-and-gait'
@@ -24,8 +22,8 @@ let highligtedProjects = [
     },
     {
         title: 'NorElis Cakes App',
-        description: `iOS e-commerce mock/demo app for browsing, customizing, and ordering cakes from NorElisCakes. Features a dynamic customization screen,
-        a scalable architecture that makes it easy to add new cakes, and Core Data integration for persistent cart management.`,
+        description: `iOS e-commerce mock/demo app for NorElis Cakes, featuring a dynamic customization screen,
+        a scalable architecture, and Core Data integration.`,
         tags: ['iOS Dev', 'Swift', 'UIKit', 'Storyboard'],
         coverPhoto: NorElisCakesCoverPhoto,
         link: '/projects/noreliscakes'

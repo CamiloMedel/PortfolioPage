@@ -24,11 +24,12 @@ function Tag({label}) {
     const tagStyle = {
         backgroundColor: backgroundColor,
         color: 'white',
-        padding: '2px 7px',
+        padding: '3px 10px',
         fontWeight: 'bold',
-        minWidth: '60px',
         textAlign: 'center',
-        fontSize: '13px'
+        fontSize: '13px',
+        borderRadius: '16px',
+        whiteSpace: 'nowrap',
     }
 
     return (
