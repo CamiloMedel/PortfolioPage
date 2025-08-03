@@ -80,3 +80,16 @@
         display: block;
     }
 }
+
+@media screen and (max-width: 530px) {
+    .portfolio-header {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .tab {
+        padding: 0 5px;
+        min-width: 100px;
+    }
+}
