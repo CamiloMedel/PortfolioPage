@@ -13,7 +13,7 @@ import ContactConfirmation from './components/Contact/ContactConfirmation'
 function App() {
   return (
     <>
-      <Header />
+      <Header/>
       <Routes>
         <Route path="/">
           <Route index element={<Home/>}/>

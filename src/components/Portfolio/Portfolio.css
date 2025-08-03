@@ -1,35 +1,37 @@
-#portfolio h1 {
-    width: 200px;
-    text-align: center;
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: min(80%, 100%);
     margin: auto;
-    margin-top: 40px;
-    padding-top: 90px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 80px;
+}
+
+#portfolio h1 {
+    text-align: center;
 }
 
 #tab-switch {
-    width: min(80%, 100%);
-    min-width: 320px;
-    height: 60px;
-    margin: auto;
-    margin-top: 20px;
     text-align: center;
 }
 
 .tab {
-    width: 50%;
-    height: 100%;
-    border: none;
     border: lightgray solid 1px;
     border-bottom: lightgray solid 2px;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 5px 23px;
+    min-width: 198.25px;
 }
 
 .tab:hover {
-    font-size: 1.3rem;
+    border: solid 1px black;
 }
 
 .active {
     background-color: white;
+    font-weight: bold;
 }
 
 #tab-switch button {
@@ -45,10 +47,9 @@
     min-width: 320px;
     margin: auto;
     margin-bottom: 20px;
+    margin-top: -20px;
     display: flex;
-    background-color: aliceblue;
     padding: 10px;
-    border: lightgray solid 1px;
 }
 
 .projects-section > .projects-container {
@@ -58,10 +59,17 @@
     justify-items: center;
     gap: 40px;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .projects-section > .projects-container > .project-card {
     width: 300px;
     height: auto;
     max-height: 500px;
+}
+
+@media screen and (max-width: 1065px) {
+    .portfolio-header {
+        display: block;
+    }
 }
