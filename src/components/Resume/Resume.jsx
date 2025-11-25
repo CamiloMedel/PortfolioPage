@@ -33,7 +33,7 @@ function Resume(){
             <div className='tech-resume'>
                 <div className='resume-content'>
                     <h1 className='title'>Software Engineering</h1>
-                    <a href='https://drive.google.com/file/d/1trfX1Al8-0h_QzVn5NNFjgD_Tc17PcPL/view?usp=sharing' target='_blank'>Resume</a>
+                    <a href='https://drive.google.com/file/d/1C4H3xXnhpxdQwzoxIrr2uAAXkiLKplbV/view?usp=sharing' target='_blank'>Resume</a>
                 </div>
             </div>
         </main>
